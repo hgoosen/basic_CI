@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/FindPython.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/FindPython/Support.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+C:/ST/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-src/googletest/CMakeLists.txt
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-src/googletest/cmake/Config.cmake.in
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-src/googletest/cmake/gtest.pc.in
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-src/googletest/cmake/gtest_main.pc.in
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-src/googletest/cmake/internal_utils.cmake

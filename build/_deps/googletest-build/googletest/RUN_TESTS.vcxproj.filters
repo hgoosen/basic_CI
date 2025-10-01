@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Documents\Coding\STM32\CubeSat\basic_CI\build\CMakeFiles\f5769ce9a0dfaf4515529b20bd20deb5\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{77268787-7EF1-3626-AC5E-F58E0F1A329F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\DELL\DOCUMENTS\CODING\STM32\CUBESAT\BASIC_CI\BUILD\CMAKEFILES\7DFBCBA08D77624187066DF6322EA7A3\GENERATE.STAMP.RULE
+setlocal
+C:\ST\STM32CubeCLT_1.19.0\CMake\bin\cmake.exe -SC:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI -BC:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/basic_CI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
