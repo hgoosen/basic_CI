@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 src/hello.c:4:10: style: Same expression on both sides of '=='. [duplicateExpression]
     if (1== 1){
          ^
@@ -9,3 +10,16 @@ test/hello_test.cc:4:0: style: The function 'TEST' is never used. [unusedFunctio
 ^
 nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
 
+=======
+src/hello.c:4:9: style: Same expression on both sides of '=='. [duplicateExpression]
+  if (1 == 1) {
+        ^
+src/hello.c:5:11: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+    int i = 1 + 1; // format me
+          ^
+test/hello_test.cc:4:0: style: The function 'TEST' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
+>>>>>>> 046df256d7688ea476225ad228cda00d41c2a323
