@@ -22,6 +22,12 @@ jobs:
     - name: Run clang-format style check for C/C++/Protobuf programs.
       uses: jidicula/clang-format-action@v4.15.0
       with:
+
+        # Auto fix enabled
+
+        s-mode: fix
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
         clang-format-version: '13'
         check-path: ${{ matrix.path }}
         fallback-style: 'Mozilla' # optional
