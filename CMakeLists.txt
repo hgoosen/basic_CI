@@ -17,11 +17,11 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 add_executable(
-    src/hello_test
-    src/hello_test.cc
+    hello_test
+    hello_test.cc
 )
 target_link_libraries(
-    src/hello_test
+    hello_test
     GTest::gtest_main
 )
 
