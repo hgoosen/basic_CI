@@ -1,0 +1,35 @@
+name: C++ CI with CMake and GTest
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checks out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: 'recursive' # Also checkout submodules, useful if GTest is a submodule
+
+      # 2. Configure the CMake project
+      - name: Configure CMake
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
+
+      # 3. Build the project
+      - name: Build project
+        run: cmake --build build --config Debug
+
+      # 4. Run the tests using CTest
+      - name: Run tests
+        run: |
+          cd build
+          ctest --output-on-failure
