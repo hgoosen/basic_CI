@@ -1,4 +1,4 @@
-name: C++ CI with CMake and GTest
+name: CT with CMake and GTest
 
 # Controls when the workflow will run
 on:
