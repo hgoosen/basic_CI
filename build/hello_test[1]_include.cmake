@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/hello_test[1]_tests.cmake")
-  include("C:/Users/DELL/Documents/Coding/STM32/CubeSat/basic_CI/build/hello_test[1]_tests.cmake")
-else()
-  add_test(hello_test_NOT_BUILT hello_test_NOT_BUILT)
-endif()
